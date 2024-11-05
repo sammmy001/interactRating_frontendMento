@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(216, 12%, 8%) ;
+    color: hsl(217, 12%, 63%);
+}
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_div{
+    display: inline-flex;
+    background-color: hsl(212, 11%, 23%);
+    border-radius: 25px;
+}
+img{
+    padding: 15px 15px 15px 15px;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.rate{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: none;
+    border: none;
+}
+
+.btn{
+    background-color: hsl(212, 11%, 23%);
+    color: hsl(217, 12%, 63%);  
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.btnToggle{
+    background-color: hsl(25, 97%, 53%);
+}
+
+#sub{
+    padding:15px 50px 15px 50px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sub:hover{
+    background-color:hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.cont2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.cont2>div{
+    justify-items: center;
+}
+.cont2>div>div{
+    background-color: hsl(212, 11%, 23%);
+    color: hsl(25, 66%, 55%);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#ty_image{
+    width: 200px;
+}
+#last {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#return{
+    display: flex;
+    justify-self: center;
+    color: hsl(217, 12%, 63%);
+}
+
+@media screen and (min-width:1000px) {
+    .container{
+        width:28%;
+    }
+   
+}
